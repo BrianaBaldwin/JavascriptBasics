@@ -93,3 +93,6 @@ let items=[1,2,3,4];
 //add items one by one to items array
 console.log()
 
+function showalert() {
+    alert("helloworld")
+}
