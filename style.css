@@ -1,0 +1,15 @@
+/* when you are referring to class it should start with . */
+
+
+
+/* when you are referring to id it should start with # */
+
+#purple{
+    color: yellow;
+}
+/* 
+dot means class */
+
+.content{
+    margin: 20px;
+}
