@@ -18,24 +18,40 @@
 
     <h1 id="purple" >color changed from js file</h1>
 
+
+    <div class="container">
+        <div class="row" style ="background: yellow">
+          <div class="col" style="background-color: purple; margin:5px">
+            Column 1
+          </div>
+          <div class="col" style="background-color: green; padding:5px">
+            Column 2
+          </div>
+          <div class="col" style="background-color: gray; margin:5px">
+            Column 3
+          </div>
+        </div>
+    </div>
+
+
     <div class ="content">
-        <button onclick="changeColorToBlue()">change color to blue</button>
-        <button onclick="changeColorToYellow()">change color to yellow</button>
-        <button onclick="changeColorToPurple()">change color to purple</button>
-        <button onclick="changeColorToGreen()">change color to green</button>
+        <button class="btn btn-secondary" onclick="changeColorToBlue()">change color to blue</button>
+        <button class="btn btn-primary" onclick="changeColorToYellow()">change color to yellow</button>
+        <button class="btn btn-success" onclick="changeColorToPurple()">change color to purple</button>
+        <button class="btn btn-danger" onclick="changeColorToGreen()">change color to green</button>
     </div>
    
     <div class ="content">
         <h1>Push Values into Array</h1>
         <input type="text" id="inputvalue">
-        <button onclick="pushValueIntoArrayFromBack()">Add value from back of array</button>
-        <button onclick="pushValueIntoArrayFromFront()">Add value from front of array</button>
+        <button class="btn btn-warning" onclick="pushValueIntoArrayFromBack()">Add value from back of array</button>
+        <button class="btn btn-outline-primary" onclick="pushValueIntoArrayFromFront()">Add value from front of array</button>
     </div>
 
     <div>
         <input type="number"  id="firstNumber">
         <input type="number"  id="secondNumber">
-        <button onclick="pushValueIntoArrayFromBack()">Add value from back of array</button>
+        <button class="btn btn-lg btn-primary" onclick="pushValueIntoArrayFromBack()">Add value from back of array</button>
     </div>
 
     <div class="content">
